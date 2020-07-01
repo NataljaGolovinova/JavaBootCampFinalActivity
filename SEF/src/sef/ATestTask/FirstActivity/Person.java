@@ -2,6 +2,9 @@ package sef.ATestTask.FirstActivity;
 
 
 public class Person {
+	String firstName;
+	String secondName;
+	int age;
 
 //TODO 1 Implement Person Attributes
 
@@ -49,6 +52,10 @@ public class Person {
 	//TODO 2 add all person info into announce() method
 	public String announce() {
 		return "I am " + getFirstName() + " " + getSecondName();
+	}
+	
+	public String introduce() {
+		return "My name is " + firstName + " " + secondName + " and I am " + age + " years old";
 	}
 }
 
